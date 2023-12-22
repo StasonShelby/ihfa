@@ -15,6 +15,5 @@ def goldbach_conjecture(n):
         if is_prime(n - prime):
             print(f"{n} = {prime} + {n - prime}")
 
-# Пример использования
 n = int(input("Введите число: "))
 goldbach_conjecture(n)
